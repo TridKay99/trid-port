@@ -5,9 +5,13 @@ module.exports = {
     extend: {
       colors: {
         grey: {
-          darkest: '#212121',
-          dark: '#363636',
-          light: '#565757',
+          darkest: '#000000',
+          dark: '#212121',
+          light: '#333333',
+          text: '#cdcdcd'
+        },
+        purple: {
+          plum: '#bb86fc'
         }
       },
     },

@@ -20,7 +20,7 @@ export const DarkModeButton = (props: Props) => {
       <button onClick={setTheme}
               className={
         "border-2 " +
-        "border-black dark:border-white " +
+        "border-black dark:border-purple-plum " +
         "shadow-md dark:shadow-inner " +
         "items-center " +
         "justify-center " +
@@ -30,12 +30,14 @@ export const DarkModeButton = (props: Props) => {
         "font-bold " +
         "bg-white " +
         "text-black " +
-        "dark:bg-black " +
-        "dark:text-white"
+        "dark:bg-grey-darkest " +
+        "dark:text-purple-plum"
       }>
         <HiLightBulb className={"inline w-8 h-8"} />
       </button>
-      <p className={"m-1 font-bold"}> Dark Mode </p>
+      <div className={"flex items-center"}>
+        <p className={"m-1 font-bold text-grey-text"}> Dark Mode </p>
+      </div>
     </div>
   );
 };

@@ -88,7 +88,6 @@
     transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
     transform: rotate(-45deg) translate(0, -1px);
@@ -102,7 +101,7 @@
     padding: 50px;
     padding-top: 125px;
 
-    background: #ededed;
+    background: #333333;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
 
@@ -121,4 +120,5 @@
 #menuToggle input:checked ~ ul
 {
     transform: none;
+
 }

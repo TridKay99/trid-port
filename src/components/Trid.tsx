@@ -29,7 +29,7 @@ export const Trid = () => {
 
   return (
     <div className={theme === Theme.DARK ? "dark" : ""}>
-      <div className={"bg-white dark:bg-grey-dark h-screen"}>
+      <div className={"bg-white dark:bg-grey-dark h-screen overflow-x-hidden"}>
         <Hamburger theme={theme} setTheme={setAppTheme}/>
       </div>
     </div>

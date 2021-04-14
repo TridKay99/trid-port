@@ -1,6 +1,7 @@
 import React from 'react';
 import {DarkModeButton} from "../DarkModeButton";
 import {Theme} from "../Trid";
+import '../../styles/hamburger.css'
 
 type Props = {
   theme: Theme
