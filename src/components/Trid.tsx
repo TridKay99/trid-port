@@ -26,7 +26,6 @@ export const Trid = () => {
     localStorage.setItem("theme", theme);
     setTheme(theme)
   };
-
   return (
     <div className={theme === Theme.DARK ? "dark" : ""}>
       <div className={"bg-white dark:bg-grey-dark h-screen overflow-x-hidden"}>
