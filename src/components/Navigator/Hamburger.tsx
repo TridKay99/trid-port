@@ -11,18 +11,14 @@ type Props = {
 export const Hamburger = (props: Props) => {
 
   return (
-    <>
-    <nav role="navigation">
-      <div id="menuToggle">
-        <input type="checkbox" />
-        <span></span>
-        <span></span>
-        <span></span>
-        <ul id="menu">
-          <DarkModeButton theme={props.theme} setTheme={props.setTheme}/>
-        </ul>
-      </div>
-    </nav>
-    </>
+    <div id={props.theme === Theme.LIGHT ? "menuToggle" : "menuToggle-dark-mode"}>
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul id="menu">
+        <DarkModeButton theme={props.theme} setTheme={props.setTheme}/>
+      </ul>
+    </div>
   );
 };

@@ -12,6 +12,9 @@ module.exports = {
         },
         purple: {
           plum: '#bb86fc'
+        },
+        or: {
+          gold: '#ff9a2d'
         }
       },
     },

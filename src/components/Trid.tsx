@@ -31,6 +31,9 @@ export const Trid = () => {
     <div className={theme === Theme.DARK ? "dark" : ""}>
       <div className={"bg-white dark:bg-grey-dark h-screen overflow-x-hidden"}>
         <Hamburger theme={theme} setTheme={setAppTheme}/>
+        <div className={"flex flex-col mt-16 justify-center items-center"}>
+          <p className={"text-white mr-14 text-5xl"}>Tristan</p><p className={"text-or-gold ml-28 text-5xl"}>Kay</p>
+        </div>
       </div>
     </div>
   );
